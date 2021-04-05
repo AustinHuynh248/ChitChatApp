@@ -36,7 +36,9 @@ const LoginForm = () => {
   return (
     <div className="wrapper">
       <div className="form">
-        <h1 className="title">Chat Application</h1>
+        <h1 className="title">
+          Chat Application (Type in the name and password using the placeholder)
+        </h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
